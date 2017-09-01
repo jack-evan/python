@@ -15,5 +15,15 @@ bob = turtle.Turtle()
 #call function
 drawMyTurtle(bob,200)
 
+
+bob.penup()
+bob.goto(100,100)
+bob.pendown()
+
+drawMyTurtle(bob,75)
+
+
+
+
 wn.exitonclick()
 
